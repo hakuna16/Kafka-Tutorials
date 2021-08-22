@@ -12,6 +12,7 @@ When ever we create topic we pass replication-factor to the cluster so that data
 - The replica of the leader is called `leader replica` and others are called as `follower replica`.
 
 When the failure will happen then first Zoopeker will be notified and it will assign the other broker as the new leader using controler node.
+The leader assignment is done by the controller node which is part of the cluster.
 
 ## In-Sync Replica(ISR)
 - Represents the number of replica in sync with each other in the cluster
@@ -19,4 +20,12 @@ When the failure will happen then first Zoopeker will be notified and it will as
 - Ideal value is ISR == Replication Factor
 - This can be controlled by min.insync.replicas property
 - It can be set at the broker or topic level
+
+Command to 	PartitionCount, ReplicationFactor, leader etcs.
+
+    kafka-topics.sh --describe --zookeeper zookeeper:2181 
+
+Command for specific ID:
+    kafka-topics.sh --describe --zookeeper zookeeper:2181 --topic TestTopic
+
 
