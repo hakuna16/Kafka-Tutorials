@@ -8,4 +8,4 @@
 - Connect the kafka on startup using the exposed zookeper port: `2181`
 
 
-# Tutorials can be found [here](/docs/ Kafka as a Distributed Streaming System.md)
+# Tutorials can be found [here](Kafka as a Distributed Streaming System.md)
