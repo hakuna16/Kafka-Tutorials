@@ -7,4 +7,5 @@
 - host should be localhost
 - Connect the kafka on startup using the exposed zookeper port: `2181`
 
-Please find the tutorials [here]()
+
+# Tutorials can be found [here](/docs/ Kafka as a Distributed Streaming System.md)
