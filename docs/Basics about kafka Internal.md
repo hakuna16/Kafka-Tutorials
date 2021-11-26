@@ -27,4 +27,4 @@
 - All the records are persisted in a commit log in the file system where Kafka is installed.
 
 
-#Next: [What is Event Streaming]https://hakuna16.github.io/Kafka-Tutorials/what%20is%20Event%20Streaming.html
+#Next: [What is Event Streaming](https://hakuna16.github.io/Kafka-Tutorials/what%20is%20Event%20Streaming.html)
