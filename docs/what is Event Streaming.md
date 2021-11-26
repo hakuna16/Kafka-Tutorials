@@ -15,4 +15,4 @@
 
 
 
-                                                                    [What is Kafka.md](What is Kafka.md)
+ # NEXT: [Kafka as a Distributed Streaming System](https://hakuna16.github.io/Kafka-Tutorials/Streaming%20System.html)
