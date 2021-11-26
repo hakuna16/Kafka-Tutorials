@@ -6,3 +6,5 @@
 - Name of the cluster you can give anything.
 - host should be localhost
 - Connect the kafka on startup using the exposed zookeper port: `2181`
+
+Please find the tutorials [here]()
