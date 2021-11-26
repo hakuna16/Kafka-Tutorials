@@ -9,4 +9,5 @@ Kafka combines three key capabilities so you can implement your use cases for ev
 2. To store streams of events durably and reliably for as long as you want.
 3. To process streams of events as they occur.
 
-                                            [Basics about kafka Internal](Basics about kafka Internal.md)
+                                            
+                                            [Basics about kafka Internal](https://hakuna16.github.io/Kafka-Tutorials/Basics%20about%20kafka%20Internal.html)
