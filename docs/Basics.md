@@ -9,7 +9,7 @@
 
 2. Listing topics <br/>
 
-    `kafka-topics.sh --list --zookeeper zookeeper:2181`
+    ` kafka-topics.sh --list --bootstrap-server localhost:9092`
 
 ### How to instantiate a Console Producer Without Key?
 
