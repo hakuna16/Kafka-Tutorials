@@ -5,7 +5,7 @@
 - Go to the kafka folder inside.`/opt/bitnami/kafka/bin`
 - Run the following command to create topic. <br/>
     
-    kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 4 --topic TestTopic
+    kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 4 --topic TestTopic
 
 2. Listing topics <br/>
 
